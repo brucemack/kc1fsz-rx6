@@ -805,22 +805,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,7 +845,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -872,18 +872,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -907,19 +896,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -929,7 +907,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -947,7 +925,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -957,42 +935,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1550,6 +1492,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2412,6 +2436,12 @@
 		(uuid "559845c0-de3d-469a-a7c3-d713613a315f")
 	)
 	(junction
+		(at 92.71 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "568e7beb-e947-48fd-95f8-867e76d8c8af")
+	)
+	(junction
 		(at 233.68 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2428,6 +2458,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6819f83f-d171-46e8-87c0-11663f5af585")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b63318a-fa20-4168-907d-6d8b97e108a4")
 	)
 	(junction
 		(at 243.84 120.65)
@@ -2502,12 +2538,6 @@
 		(uuid "b30e73cd-759d-4561-afc9-72010ade0cb8")
 	)
 	(junction
-		(at 92.71 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e6ee14-0d4e-4e42-9cbf-231e1a086d04")
-	)
-	(junction
 		(at 104.14 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,12 +2578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea3b5b1d-4c65-43f0-9f85-0be6b61aa6eb")
-	)
-	(junction
-		(at 92.71 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecee256d-1983-443d-a30e-96d6848eff78")
 	)
 	(junction
 		(at 127 85.09)
@@ -2989,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 92.71 43.18)
+			(xy 76.2 59.69) (xy 92.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 71.12 43.18)
+			(xy 66.04 59.69) (xy 71.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 92.71 40.64)
+			(xy 67.31 57.15) (xy 92.71 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 62.23 40.64)
+			(xy 57.15 57.15) (xy 62.23 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4093,7 @@
 	)
 	(global_label "CLK_I"
 		(shape input)
-		(at 57.15 40.64 180)
+		(at 57.15 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4079,7 +4103,7 @@
 		)
 		(uuid "213d2690-9d17-4bff-bd5c-58a9d1c258a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0243 40.64 0)
+			(at 49.0243 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4269,7 @@
 	)
 	(global_label "CLK_Q"
 		(shape input)
-		(at 66.04 43.18 180)
+		(at 66.04 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4255,7 +4279,7 @@
 		)
 		(uuid "ad76fdd7-86c0-4b3c-a06b-0721490f5ab3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1886 43.18 0)
+			(at 57.1886 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4313,7 @@
 	)
 	(global_label "Q_PLUS"
 		(shape input)
-		(at 114.3 172.72 180)
+		(at 127 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4299,7 +4323,7 @@
 		)
 		(uuid "b90af542-4d43-48d9-89b4-85b048523189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.1786 172.72 0)
+			(at 116.8786 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4357,7 @@
 	)
 	(global_label "VCOML"
 		(shape input)
-		(at 113.03 177.8 180)
+		(at 114.3 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4343,7 +4367,7 @@
 		)
 		(uuid "cc730229-bd89-4194-a8e8-d0e2eb188836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8762 177.8 0)
+			(at 105.1462 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4379,7 @@
 	)
 	(global_label "Q_MINUS"
 		(shape input)
-		(at 127 175.26 180)
+		(at 113.03 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4365,7 +4389,7 @@
 		)
 		(uuid "dab2812e-eed3-4176-afac-c6cb383bd9e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.79 175.26 0)
+			(at 101.82 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.52 109.22 0)
 			(effects
 				(font
@@ -4513,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 22.86 85.09 0)
 			(effects
 				(font
@@ -4647,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -4690,6 +4714,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 97.79 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f224bf0-0b17-40d5-b33f-ed016070e9ae")
+		(property "Reference" "J4"
+			(at 100.33 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 100.33 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148bacff-5613-4bff-9c74-088870ff5c03")
+		)
+		(pin "2"
+			(uuid "f6e107f2-dc1a-4c04-9142-d9bed9fa09e5")
+		)
+		(instances
+			(project ""
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 124.46 0)
 		(unit 1)
@@ -4717,7 +4811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -4785,7 +4879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 226.06 44.45 0)
 			(effects
 				(font
@@ -4870,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -4940,7 +5034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 66.04 95.25 0)
 			(effects
 				(font
@@ -5007,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 77.47 0)
 			(effects
 				(font
@@ -5077,7 +5171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -5147,7 +5241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.76 109.22 0)
 			(effects
 				(font
@@ -5217,7 +5311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -5284,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.52 67.31 0)
 			(effects
 				(font
@@ -5351,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.52 52.07 0)
 			(effects
 				(font
@@ -5484,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.52 124.46 0)
 			(effects
 				(font
@@ -5552,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -5583,16 +5677,16 @@
 			(uuid "2fa10028-b900-4598-8f24-4e3e67118348")
 		)
 		(pin "7"
-			(uuid "afc47d28-760f-44c0-8823-5dea7be0dd8c")
+			(uuid "afc47d28-760f-44c0-8823-5dea7be0dd8d")
 		)
 		(pin "8"
-			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771b")
+			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771c")
 		)
 		(pin "4"
-			(uuid "c41b546d-3b90-441c-a101-7d58959a7d5d")
+			(uuid "c41b546d-3b90-441c-a101-7d58959a7d5e")
 		)
 		(pin "5"
-			(uuid "8978c8bd-90d5-455e-b241-9520e4141f65")
+			(uuid "8978c8bd-90d5-455e-b241-9520e4141f66")
 		)
 		(pin "2"
 			(uuid "ffde5991-9855-4772-b667-86da08f47c57")
@@ -5601,7 +5695,7 @@
 			(uuid "dee46a04-6567-4e9f-b6f9-799e6a83ed5b")
 		)
 		(pin "6"
-			(uuid "8ed82663-89b3-4e24-92dd-7e5016fa8452")
+			(uuid "8ed82663-89b3-4e24-92dd-7e5016fa8453")
 		)
 		(instances
 			(project "kc1fsz-rx6"
@@ -5640,7 +5734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 91.44 92.71 0)
 			(effects
 				(font
@@ -5749,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 234.95 63.5 0)
 			(effects
 				(font
@@ -5819,7 +5913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.82 116.84 0)
 			(effects
 				(font
@@ -5889,7 +5983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 143.51 175.26 0)
 			(effects
 				(font
@@ -6172,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -6242,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 264.16 95.25 0)
 			(effects
 				(font
@@ -6330,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 72.39 0)
 			(effects
 				(font
@@ -6506,82 +6600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 97.79 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61becc04-8fe0-4797-a140-4e562f0f9532")
-		(property "Reference" "J3"
-			(at 100.33 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 100.33 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fd24cc05-be38-4766-8fa7-31475a2e58f7")
-		)
-		(pin "1"
-			(uuid "ce0ba093-4de6-4bd4-b901-ffb3eed327b7")
-		)
-		(pin "3"
-			(uuid "6791b4b3-7fb2-4e63-ad22-16cc292dad6f")
-		)
-		(pin "2"
-			(uuid "6d2e0116-7382-4d4d-8240-2440ae2abc09")
-		)
-		(instances
-			(project ""
-				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 261.62 25.4 0)
 		(unit 1)
@@ -6739,7 +6757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 226.06 74.93 0)
 			(effects
 				(font
@@ -6767,28 +6785,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "72078d85-cd6a-4d41-afe4-594f22aa9d52")
+			(uuid "72078d85-cd6a-4d41-afe4-594f22aa9d53")
 		)
 		(pin "7"
-			(uuid "afc47d28-760f-44c0-8823-5dea7be0dd8c")
+			(uuid "afc47d28-760f-44c0-8823-5dea7be0dd8e")
 		)
 		(pin "8"
-			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771b")
+			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771d")
 		)
 		(pin "4"
-			(uuid "c41b546d-3b90-441c-a101-7d58959a7d5d")
+			(uuid "c41b546d-3b90-441c-a101-7d58959a7d5f")
 		)
 		(pin "5"
-			(uuid "8978c8bd-90d5-455e-b241-9520e4141f65")
+			(uuid "8978c8bd-90d5-455e-b241-9520e4141f67")
 		)
 		(pin "2"
-			(uuid "6b796866-bea7-46d6-9b3b-67b26aeeb9f1")
+			(uuid "6b796866-bea7-46d6-9b3b-67b26aeeb9f2")
 		)
 		(pin "3"
-			(uuid "f2c64247-304f-4a68-ade9-c85b9a781a46")
+			(uuid "f2c64247-304f-4a68-ade9-c85b9a781a47")
 		)
 		(pin "6"
-			(uuid "8ed82663-89b3-4e24-92dd-7e5016fa8452")
+			(uuid "8ed82663-89b3-4e24-92dd-7e5016fa8454")
 		)
 		(instances
 			(project ""
@@ -6801,7 +6819,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 92.71 45.72 90)
+		(at 92.71 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6810,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "6825f2f2-4ac7-4422-a79f-fe99c3ea10ac")
 		(property "Reference" "#FLG02"
-			(at 90.805 45.72 0)
+			(at 90.805 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6837,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 88.9 45.7199 90)
+			(at 88.9 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6864,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +6978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.61 88.9 0)
 			(effects
 				(font
@@ -7004,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 45.72 0)
+		(at 92.71 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7013,7 +7031,7 @@
 		(fields_autoplaced yes)
 		(uuid "6edfaf24-16a3-4c55-bde2-2ada31955fd7")
 		(property "Reference" "#PWR021"
-			(at 92.71 52.07 0)
+			(at 92.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 50.8 0)
+			(at 92.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 45.72 0)
+			(at 92.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -7293,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -7337,7 +7355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 64.77 40.64 90)
+		(at 64.77 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7346,7 +7364,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d76b263-8fde-4023-ad32-0707b3b59d9b")
 		(property "Reference" "R19"
-			(at 64.77 34.29 90)
+			(at 64.77 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,15 +7372,15 @@
 			)
 		)
 		(property "Value" "47"
-			(at 64.77 36.83 90)
+			(at 64.77 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 40.64 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 40.64 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7398,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 64.77 40.64 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -7495,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -7694,7 +7712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 243.84 116.84 0)
 			(effects
 				(font
@@ -7737,6 +7755,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 34.29 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a453bce-0504-4e70-bff2-4ed19393580a")
+		(property "Reference" "H4"
+			(at 36.83 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 36.83 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kc1fsz-rx6"
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 243.84 59.69 180)
 		(unit 1)
@@ -7761,7 +7843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 243.84 59.69 0)
 			(effects
 				(font
@@ -7831,7 +7913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 251.46 33.02 0)
 			(effects
 				(font
@@ -7868,6 +7950,70 @@
 			(project ""
 				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 34.29 133.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "904480e1-2fe3-49d7-bfbb-6b7255eb93db")
+		(property "Reference" "H1"
+			(at 36.83 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 36.83 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7967,7 +8113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 264.16 38.1 0)
 			(effects
 				(font
@@ -7995,25 +8141,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "20f9585a-94e4-4228-a9ef-894c1b4ba528")
+			(uuid "20f9585a-94e4-4228-a9ef-894c1b4ba529")
 		)
 		(pin "1"
-			(uuid "ae780243-b1b1-4f06-b9cb-c554977c00d7")
+			(uuid "ae780243-b1b1-4f06-b9cb-c554977c00d8")
 		)
 		(pin "3"
-			(uuid "106825bf-c502-4e4e-a2bb-ca2e956a22e5")
+			(uuid "106825bf-c502-4e4e-a2bb-ca2e956a22e6")
 		)
 		(pin "4"
 			(uuid "62a22288-5103-4207-9857-e55cb728f8a8")
 		)
 		(pin "6"
-			(uuid "9cced1c4-fc6b-401b-b2a1-4ef602739e41")
+			(uuid "9cced1c4-fc6b-401b-b2a1-4ef602739e42")
 		)
 		(pin "7"
-			(uuid "dc719149-4bbe-466f-96cc-977b8606ebbe")
+			(uuid "dc719149-4bbe-466f-96cc-977b8606ebbf")
 		)
 		(pin "5"
-			(uuid "6b05815e-4e91-49f4-9426-47b328b08bf6")
+			(uuid "6b05815e-4e91-49f4-9426-47b328b08bf7")
 		)
 		(pin "8"
 			(uuid "c5b5f19c-fb31-47d0-974d-eafd4c182168")
@@ -8055,7 +8201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -8115,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Value" "TEZ0.5-D-2"
+		(property "Value" "Trifilar FT37-43"
 			(at 40.64 80.01 0)
 			(effects
 				(font
@@ -8123,7 +8269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Breve_TEZ-22x24"
+		(property "Footprint" "bruce-footprints:FT37-43 Trifilar"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -8203,7 +8349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 234.95 113.03 0)
 			(effects
 				(font
@@ -8468,7 +8614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 234.95 55.88 0)
 			(effects
 				(font
@@ -8535,7 +8681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -8572,6 +8718,76 @@
 			(project "kc1fsz-rx6"
 				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 97.79 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afdb6292-1020-4794-8884-77c73f92bdfb")
+		(property "Reference" "J3"
+			(at 100.33 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 100.33 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dec9683-42cd-48f4-833c-6a79159e2cd0")
+		)
+		(pin "1"
+			(uuid "520a7cb9-89db-4b27-bb2b-218b3dc99d46")
+		)
+		(instances
+			(project ""
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -8738,7 +8954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 129.54 0)
 			(effects
 				(font
@@ -8805,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 99.06 0)
 			(effects
 				(font
@@ -8848,6 +9064,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 34.29 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5d043d-6812-4470-aab3-4e63eb1b227e")
+		(property "Reference" "H2"
+			(at 36.83 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 36.83 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 34.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 34.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kc1fsz-rx6"
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 234.95 120.65 90)
 		(unit 1)
@@ -8872,7 +9152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 234.95 120.65 0)
 			(effects
 				(font
@@ -8942,7 +9222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.82 59.69 0)
 			(effects
 				(font
@@ -9010,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 226.06 132.08 0)
 			(effects
 				(font
@@ -9038,25 +9318,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "72078d85-cd6a-4d41-afe4-594f22aa9d53")
+			(uuid "72078d85-cd6a-4d41-afe4-594f22aa9d54")
 		)
 		(pin "7"
 			(uuid "7a7a41ef-4297-4982-8b0f-9bb33e0ce968")
 		)
 		(pin "8"
-			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771c")
+			(uuid "44bf0df6-abd0-44d8-b1ce-780fcf1c771e")
 		)
 		(pin "4"
-			(uuid "c41b546d-3b90-441c-a101-7d58959a7d5e")
+			(uuid "c41b546d-3b90-441c-a101-7d58959a7d60")
 		)
 		(pin "5"
 			(uuid "2b77faf4-5e2d-4dea-8049-69ba58886819")
 		)
 		(pin "2"
-			(uuid "6b796866-bea7-46d6-9b3b-67b26aeeb9f2")
+			(uuid "6b796866-bea7-46d6-9b3b-67b26aeeb9f3")
 		)
 		(pin "3"
-			(uuid "f2c64247-304f-4a68-ade9-c85b9a781a47")
+			(uuid "f2c64247-304f-4a68-ade9-c85b9a781a48")
 		)
 		(pin "6"
 			(uuid "a2c42c70-ce05-498c-92b2-1e4351e53eb6")
@@ -9072,7 +9352,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 73.66 43.18 90)
+		(at 73.66 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9080,7 +9360,7 @@
 		(dnp no)
 		(uuid "d6f64dc2-829e-422d-a1d6-4a909cbf972e")
 		(property "Reference" "R20"
-			(at 73.152 48.768 90)
+			(at 73.152 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,15 +9368,15 @@
 			)
 		)
 		(property "Value" "47"
-			(at 73.406 46.228 90)
+			(at 73.406 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 43.18 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +9385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 43.18 0)
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9394,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 73.66 43.18 0)
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -9274,6 +9554,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 34.29 147.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e312dc49-db8f-4c11-9805-8a1caec67669")
+		(property "Reference" "H3"
+			(at 36.83 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 36.83 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kc1fsz-rx6"
+				(path "/9023e49b-f65a-4cbb-b695-a7479e25ced6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 72.39 0)
 		(unit 1)
@@ -9367,7 +9711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -9434,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -9567,7 +9911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 194.31 119.38 0)
 			(effects
 				(font
