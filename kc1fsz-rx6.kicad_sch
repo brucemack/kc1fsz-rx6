@@ -4488,6 +4488,36 @@
 		)
 		(uuid "fcbefbbc-c39b-42cf-a93c-7ab140e79323")
 	)
+	(text "SOIC-8"
+		(exclude_from_sim no)
+		(at 235.458 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a6e31f6-a07d-4503-ada0-028edf0580c6")
+	)
+	(text "SOIC-16"
+		(exclude_from_sim no)
+		(at 113.03 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f7c11d9-548d-4c45-a0e9-5e8b15a06202")
+	)
+	(text "SOIC-8"
+		(exclude_from_sim no)
+		(at 235.204 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c652675-8b9b-4727-a8c2-defce8174919")
+	)
 	(global_label "CLK_I"
 		(shape input)
 		(at 57.15 49.53 180)
